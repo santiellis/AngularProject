@@ -1,0 +1,134 @@
+.navbarfull {
+    /* border-style: solid; */
+    border-bottom: solid 1px gray;
+    box-shadow: 0.11px 0.01px 5px #aaaaaa;
+    width: 100%;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.companyname{
+    display: flex;
+    margin-right: 20px;
+}
+
+.barname{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    color:#158e57;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.barnametop{
+    font-weight:bolder;
+    font-size: large;
+}
+
+.barnamelow{
+    font-weight:bolder;
+    font-size: xx-small;
+}
+.soloBubble{
+    margin-left: -5px;
+    background-color:white;
+    color:#2cb276;
+}
+
+.se-left{
+    display: flex;
+    padding: 20px;
+}
+
+.iconBubble{
+    background-color: #DAF7A6;
+    margin: 10px;
+    color:#2cb276;
+}
+
+.selectText{
+    padding-top: 2px;
+}
+
+.selectDrop{
+    background: white;
+    width: 60px;
+}
+
+.selector{
+    display: block;
+    background: white;
+    border-radius: 20px;
+    text-align: start;
+    width: 60px;
+    margin: 3px;
+    font-size: small;
+    text-align-last:center;
+    font-weight: bolder;
+    box-shadow: 0.11px 0.01px 5px #aaaaaa;
+    color: rgb(54, 54, 54);
+}
+
+.search{
+    display: flex;
+    border-radius: 20px;
+    border: solid 3px rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
+    color: #9d9d9d;
+}
+
+
+.form-field {
+    padding: 2px;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #9d9d9d;
+    border: solid 3px rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
+    width: 300px;
+  }
+
+  .form-field:hover {
+    padding: 2px;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6a6a6a;
+    border: solid 3px rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
+    width: 300px;
+  }
+
+.pListproperty{
+    color: #1db872;
+    padding-left: 10px;
+}
+
+.pListproperty:hover{
+    color: #188d58;
+    padding-left: 10px;
+}
+
+.pListpropertyBorder{
+    height: 50px;
+    margin-top: 40px;
+    border-left: solid 1px #158e57;
+}
+
+.restButton{
+    display: flex;
+    flex-direction: row;
+    padding-left: 180px;
+    justify-content: space-evenly;
+}
+
+.pList{
+    padding: 40px;
+}
+
+.pList:hover{
+    color:#aaaaaa;
+    padding: 40px;
+}
